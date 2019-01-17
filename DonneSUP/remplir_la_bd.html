@@ -1,0 +1,28 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Saisie des vidéos</title>
+    </head>
+    <body>
+        <fieldset>
+            <form method= "POST" action="AjouterContenu.php" enctype="multipart/form-data">
+				
+				<select>
+					<input type= "text" name="type_contenu" />
+					<option value= "CONFERENCE">CONFERENCE</option>
+					<option value= "DARSE">DARSE</option>
+					<option value= "QURAN">QUARAN</option>
+					<option value= "SERMON">SERMON</option>
+				</select> <br/>
+				<input type="text" name="nom" /><br/>
+				<input type="text" name="prenom" /><br/>
+               <input type="file" name="file" /><br/>
+               <input type="submit" name="submit" value = "valider"/>
+            </form>
+        </fieldset>
+        
+        
+        
+    </body>  
+</html>
